@@ -20,6 +20,7 @@
 * NPM
 * GIT
 
+### Pages:
 [Main page](https://steterik.github.io/coffee/)<br>
 [Catalog](https://steterik.github.io/coffee/catalog.html)<br>
 [Blog](https://steterik.github.io/coffee/blog.html)<br>
@@ -34,3 +35,6 @@
 [Tea page](https://steterik.github.io/coffee/page-tea.html)<br>
 [Vending page](https://steterik.github.io/coffee/page-vending.html)<br>
 [Food page](https://steterik.github.io/coffee/page-food.html)<br>
+
+### Mobile Optimization
+<img src="page-speed.jpg" alt="img" style="height: 400px;">
