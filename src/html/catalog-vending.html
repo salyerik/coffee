@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('chunk/head.html',{
+"title": "Catalog Vending"
+})
+
+<body>
+	<div class="wrapper wrapper_no-bg">
+		@@include('chunk/header.html',{})
+		<main class="catalog">
+			<section class="catalog1">
+				<div class="catalog1__container container">
+					<div class="catalog1__left">
+						<nav>
+							<ul class="catalog1__page">
+								<li>
+									<a href="index.html" class="catalog1__link catalog1__link_2">Main</a>
+								</li>
+								<li>
+									<a href="catalog-vending.html" class="catalog1__link catalog1__link_2">Products for vending</a>
+								</li>
+							</ul>
+						</nav>
+						<h1 class="catalog1__title">Products for vending</h1>
+					</div>
+					<div class="catalog1__img">
+						<img src="img/img3.png" alt="">
+					</div>
+				</div>
+			</section>
+			<section class="catalog2">
+				<form action="#" class="catalog2__form container">
+					<div class="catalog2__bottom">
+						<div class="catalog2__grid catalog2__grid_2 catalog2__grid_3">
+							<div class="catalog2__radio-big">
+								<input class="catalog2__input" type="radio" name="how" id="how1">
+								<label for="how1" class="catalog2__item catalog2__item_tea">
+									<div class="catalog2__img catalog2__img_2 catalog2__img_3">
+										<img src="img/vending.png" alt="">
+									</div>
+									<h6 class="catalog2__how catalog2__how_tea">Granulated coffee</h6>
+								</label>
+							</div>
+							<div class="catalog2__radio-big">
+								<input class="catalog2__input" type="radio" name="how" id="how2">
+								<label for="how2" class="catalog2__item catalog2__item_tea">
+									<div class="catalog2__img catalog2__img_2 catalog2__img_3">
+										<img src="img/vending.png" alt="">
+									</div>
+									<h6 class="catalog2__how catalog2__how_tea">Granular chicory</h6>
+								</label>
+							</div>
+							<div class="catalog2__radio-big">
+								<input class="catalog2__input" type="radio" name="how" id="how3">
+								<label for="how3" class="catalog2__item catalog2__item_tea">
+									<div class="catalog2__img catalog2__img_2 catalog2__img_3">
+										<img src="img/vending.png" alt="">
+									</div>
+									<h6 class="catalog2__how catalog2__how_tea">Coffee beans</h6>
+								</label>
+							</div>
+							<div class="catalog2__radio-big">
+								<input class="catalog2__input" type="radio" name="how" id="how4">
+								<label for="how4" class="catalog2__item catalog2__item_tea">
+									<div class="catalog2__img catalog2__img_2 catalog2__img_3">
+										<img src="img/vending.png" alt="">
+									</div>
+									<h6 class="catalog2__how catalog2__how_tea">Granulated cocoa</h6>
+								</label>
+							</div>
+							<div class="catalog2__radio-big">
+								<input class="catalog2__input" type="radio" name="how" id="how5">
+								<label for="how5" class="catalog2__item catalog2__item_tea">
+									<div class="catalog2__img catalog2__img_2 catalog2__img_3">
+										<img src="img/vending.png" alt="">
+									</div>
+									<h6 class="catalog2__how catalog2__how_tea">Granulated coffee drinks</h6>
+								</label>
+							</div>
+							<div class="catalog2__radio-big">
+								<input class="catalog2__input" type="radio" name="how" id="how6">
+								<label for="how6" class="catalog2__item catalog2__item_tea">
+									<div class="catalog2__img catalog2__img_2 catalog2__img_3">
+										<img src="img/vending.png" alt="">
+									</div>
+									<h6 class="catalog2__how catalog2__how_tea">Powdered coffee</h6>
+								</label>
+							</div>
+							<div class="catalog2__radio-big">
+								<input class="catalog2__input" type="radio" name="how" id="how7">
+								<label for="how7" class="catalog2__item catalog2__item_tea">
+									<div class="catalog2__img catalog2__img_2 catalog2__img_3">
+										<img src="img/vending.png" alt="">
+									</div>
+									<h6 class="catalog2__how catalog2__how_tea">Powdered milk granulated</h6>
+								</label>
+							</div>
+							<div class="catalog2__radio-big">
+								<input class="catalog2__input" type="radio" name="how" id="how8">
+								<label for="how8" class="catalog2__item catalog2__item_tea">
+									<div class="catalog2__img catalog2__img_2 catalog2__img_3">
+										<img src="img/vending.png" alt="">
+									</div>
+									<h6 class="catalog2__how catalog2__how_tea">Granulated coffee</h6>
+								</label>
+							</div>
+						</div>
+					</div>
+				</form>
+			</section>
+			<section class="catalog3">
+				<div class="catalog3__container container">
+					<select id="sort" name="sort" class="catalog3__sort">
+						<option selected disabled value="0">Sorting</option>
+						<option value="low-high">Ascending price</option>
+						<option value="high-low">Price Descending</option>
+						<option value="rating">By rating</option>
+						<option value="review">According to reviews</option>
+					</select>
+				</div>
+			</section>
+			<section class="catalog4">
+				<div class="catalog4__container container">
+					<div class="catalog4__flex" id="vending-list">
+					</div>
+				</div>
+			</section>
+			<div class="catalog__bg">
+				<img src="img/catalog-bg1.png" alt="">
+			</div>
+		</main>
+		@@include('chunk/footer.html',{})
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>

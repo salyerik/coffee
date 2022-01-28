@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('chunk/head.html',{
+"title": "Tea Single Page"
+})
+
+<body>
+	<div class="wrapper wrapper_no-bg">
+		@@include('chunk/header.html',{})
+		<main class="catalog">
+			<section class="catalog1 catalog1_2">
+				<div class="catalog1__container container">
+					<nav>
+						<ul class="catalog1__page">
+							<li>
+								<a href="index.html" class="catalog1__link catalog1__link_3">Main</a>
+							</li>
+							<li>
+								<a href="catalog-tea.html" class="catalog1__link catalog1__link_3">Tea catalog</a>
+							</li>
+							<li>
+								<a href="page-tea.html" class="catalog1__link catalog1__link_3">Tea product card</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<section class="page1">
+				<div class="page1__container container">
+					<article class="page1__product">
+						<div data-da=".page1__top,1270,1" class="page1__img">
+							<img src="img/tea.png" alt="">
+						</div>
+						<div class="page1__content">
+							<div class="page1__top">
+								<div class="page1__top-left">
+									<div class="page1__roasting">
+										<img src="img/icons/p-1.png" alt="">
+									</div>
+									<h2 class="page1__name">Name of tea</h2>
+									<div class="page1__label">Milk Oolong</div>
+									<div class="page1__rating rating rating_set">
+										<div class="page1__body-rating rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__values">
+											<div class="rating__value">4.6</div>
+											<a href="" class="rating__total">(32 review)</a>
+										</div>
+									</div>
+								</div>
+								<div data-da=".page1__top-left,1270,3" class="page1__top-right">
+									<p>Popular</p>
+									<p>New crop</p>
+								</div>
+							</div>
+							<div class="page1__text">
+								New Refining Group is located in Kaliningrad and has its own warehouse
+								and representative office in Moscow. The plant operates in the market of freshly roasted coffee and
+								instant
+								products for over 15 years. The plant has German Probat brand equipment for roasting coffee and
+								Italian agglomerators for the production of instant products.
+							</div>
+							<div class="page1__weight">
+								<input checked type="radio" name="weight" id="100">
+								<label for="100">100g.</label>
+								<input type="radio" name="weight" id="150">
+								<label for="150">150g.</label>
+								<input type="radio" name="weight" id="165">
+								<label for="165">165g.</label>
+							</div>
+							<div class="page1__bottom">
+								<div class="page1__quantity">
+									<button type="button" class="page1__btn page1__btn_minus">-</button>
+									<span class="page1__summ">1</span>
+									<button type="button" class="page1__btn page1__btn_plus">+</button>
+								</div>
+								<button type="button" class="page1__buy btn">Buy for 250 $</button>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
+			<section class="tabs">
+				<div class="tabs__container container">
+					<nav class="tabs__names tabs__names_2">
+						<button class="tabs__btn active" type="button" data-tab="#tab-1"><span>Description</span></button>
+						<button class="tabs__btn" type="button" data-tab="#tab-2"><span>How to cook?</span></button>
+						<button class="tabs__btn" type="button" data-tab="#tab-4"><span>Reviews</span></button>
+					</nav>
+					<div class="tabs__content">
+						<div class="tabs__block active tab1" id="tab-1">
+							<div class="tab1__bottom">
+								<div class="tab1__descr">
+									<p>The task of the organization, in particular the framework and place of training of personnel,
+										contributes to the training
+										and
+										implementation of mass participation systems. Thus strengthening and developing the structure
+										contributes to the preparation and implementation of directions for progressive development.</p>
+									<p>The task of the organization, in particular the framework and place of training of personnel,
+										contributes to the training
+										and
+										implementation of mass participation systems. Thus strengthening and developing the structure
+										contributes to the preparation and implementation of directions for progressive development.</p>
+									<p>Comrades! implementation of planned targets provides a wide range of
+										(specialists)
+										participation in the formation of appropriate activation conditions. On the other hand, the
+										implementation
+										planned targets require us to analyze significant financial and
+										administrative
+										conditions.</p>
+								</div>
+								<div class="tab1__img">
+									<img src="img/tea.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="tabs__block tab2" id="tab-2">
+							<div class="tab2__name">How to brew coffee:</div>
+							<div class="tab2__text">
+								<p>Diverse and rich experience A new model of organizational activity allows you to evaluate
+									the importance of the positions taken by the participants in relation to the tasks set. The
+									significance of these
+									problems is so obvious that the further development of various forms of activity in
+									largely determines the creation of a development model.</p>
+								<p>The task of the organization, in particular the framework and place of training of personnel,
+									contributes to the training
+									and
+									implementation of mass participation systems. Thus strengthening and developing the structure
+									contributes to the preparation and implementation of directions for progressive development.</p>
+								<p>Comrades! implementation of planned targets provides a wide range of
+									(specialists)
+									participation in the formation of appropriate activation conditions. On the other hand, the
+									implementation
+									planned targets require us to analyze significant financial and
+									administrative
+									conditions.</p>
+							</div>
+							<div class="tab2__img">
+								<img src="img/cook.jpg" alt="">
+							</div>
+						</div>
+						<div class="tabs__block tab4" id="tab-4">
+							<div class="tab2__name">Reviews</div>
+							<div class="tab4__review">
+								<div class="tab4__top">
+									<div class="tab4__left">
+										<div class="tab4__mark">“”</div>
+										<div class="tab4__label">Great taste!</div>
+										<div class="tab4__rating">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab4__data">
+										21.12.2020
+									</div>
+								</div>
+								<div class="tab4__text">
+									Comrades! the implementation of the planned targets provides a wide range of (specialists)
+									participation
+									in the formation of appropriate activation conditions.
+								</div>
+								<div class="tab4__bottom">
+									<div class="tab4__img">
+										<img src="img/icons/review.png" alt="">
+									</div>
+									<div class="tab4__info">
+										<div class="tab4__name">Irina</div>
+										<div class="tab4__town">Moscow city</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab4__review">
+								<div class="tab4__top">
+									<div class="tab4__left">
+										<div class="tab4__mark">“”</div>
+										<div class="tab4__label">Great taste!</div>
+										<div class="tab4__rating">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab4__data">
+										21.12.2020
+									</div>
+								</div>
+								<div class="tab4__text">
+									Comrades! the implementation of the planned targets provides a wide range of (specialists)
+									participation
+									in the formation of appropriate activation conditions.
+								</div>
+								<div class="tab4__bottom">
+									<div class="tab4__img">
+										<img src="img/icons/review.png" alt="">
+									</div>
+									<div class="tab4__info">
+										<div class="tab4__name">Irina</div>
+										<div class="tab4__town">Moscow city</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab4__review">
+								<div class="tab4__top">
+									<div class="tab4__left">
+										<div class="tab4__mark">“”</div>
+										<div class="tab4__label">Great taste!</div>
+										<div class="tab4__rating">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab4__data">
+										21.12.2020
+									</div>
+								</div>
+								<div class="tab4__text">
+									Comrades! the implementation of the planned targets provides a wide range of (specialists)
+									participation
+									in the formation of appropriate activation conditions.
+								</div>
+								<div class="tab4__bottom">
+									<div class="tab4__img">
+										<img src="img/icons/review.png" alt="">
+									</div>
+									<div class="tab4__info">
+										<div class="tab4__name">Irina</div>
+										<div class="tab4__town">Moscow city</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="catalog__bg">
+				<img src="img/page-bg.png" alt="">
+			</div>
+		</main>
+		@@include('chunk/footer.html',{})
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
