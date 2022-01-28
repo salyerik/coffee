@@ -14,22 +14,23 @@
 	* Menu-burger
 	* Animations
 	* Spoilers
+	* Ratings
 	* Tabs
 * GULP
 * NPM
 * GIT
 
-[Main page](https://steterik.github.io/coffee/)
-[Catalog](https://steterik.github.io/coffee/catalog.html)
-[Blog](https://steterik.github.io/coffee/blog.html)
-[Contacts](https://steterik.github.io/coffee/contacts.html)
-[Personal page](https://steterik.github.io/coffee/personal.html)
-[Cart](https://steterik.github.io/coffee/card.html)
-[Coffee catalog](https://steterik.github.io/coffee/catalog-coffee.html)
-[Tea catalog](https://steterik.github.io/coffee/catalog-tea.html)
-[Vending catalog](https://steterik.github.io/coffee/catalog-vending.html)
-[Food catalog](https://steterik.github.io/coffee/catalog-food.html)
-[Coffee page](https://steterik.github.io/coffee/page-coffee.html)
-[Tea page](https://steterik.github.io/coffee/page-tea.html)
-[Vending page](https://steterik.github.io/coffee/page-vending.html)
-[Food page](https://steterik.github.io/coffee/page-food.html)
+[Main page](https://steterik.github.io/coffee/)<br>
+[Catalog](https://steterik.github.io/coffee/catalog.html)<br>
+[Blog](https://steterik.github.io/coffee/blog.html)<br>
+[Contacts](https://steterik.github.io/coffee/contacts.html)<br>
+[Personal page](https://steterik.github.io/coffee/personal.html)<br>
+[Cart](https://steterik.github.io/coffee/card.html)<br>
+[Coffee catalog](https://steterik.github.io/coffee/catalog-coffee.html)<br>
+[Tea catalog](https://steterik.github.io/coffee/catalog-tea.html)<br>
+[Vending catalog](https://steterik.github.io/coffee/catalog-vending.html)<br>
+[Food catalog](https://steterik.github.io/coffee/catalog-food.html)<br>
+[Coffee page](https://steterik.github.io/coffee/page-coffee.html)<br>
+[Tea page](https://steterik.github.io/coffee/page-tea.html)<br>
+[Vending page](https://steterik.github.io/coffee/page-vending.html)<br>
+[Food page](https://steterik.github.io/coffee/page-food.html)<br>
