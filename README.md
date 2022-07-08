@@ -1,5 +1,5 @@
 # This is an online store with 14 html pages
-
+[Link to page](https://steterik.github.io/coffee/)
 ## I used here:
 * HTML (BEM)
 * CSS (SASS)
