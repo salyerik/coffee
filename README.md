@@ -1,24 +1,21 @@
 # This is an online store with 14 html pages
-[Link the to page](https://steterik.github.io/coffee/)
+
 ## I used here:
 * HTML (BEM)
-* CSS (SASS)
+* CSS
 * Pure JavaScript:
 	* You can add items to cart
 	* Work with items in the cart
 	* You can select the weight of the item
-	* Items added to cart are stored in LocalStorage
+	* Items in cart are stored in LocalStorage
 	* 4 modal windows when clicking on this icon 👤
-	* Product sorting
+	* Rating selectable on product page
+	* Products sorting
+	* Parallax effect on main page with coffee beans
 	* Swiper-slider
-	* Menu-burger
 	* Animations
 	* Spoilers
-	* Ratings
 	* Tabs
-* GULP
-* NPM
-* GIT
 
 ### Pages:
 [Main page](https://steterik.github.io/coffee/)<br>
@@ -26,7 +23,7 @@
 [Blog](https://steterik.github.io/coffee/blog.html)<br>
 [Contacts](https://steterik.github.io/coffee/contacts.html)<br>
 [Personal page](https://steterik.github.io/coffee/personal.html)<br>
-[Cart](https://steterik.github.io/coffee/card.html)<br>
+[Cart](https://steterik.github.io/coffee/cart.html)<br>
 [Coffee catalog](https://steterik.github.io/coffee/catalog-coffee.html)<br>
 [Tea catalog](https://steterik.github.io/coffee/catalog-tea.html)<br>
 [Vending catalog](https://steterik.github.io/coffee/catalog-vending.html)<br>
@@ -37,4 +34,4 @@
 [Food page](https://steterik.github.io/coffee/page-food.html)<br>
 
 ### Mobile Optimization
-<img src="page-speed.jpg" alt="img" style="height: 400px;">
+<img src="img/page-speed.jpg" alt="img" style="height: 400px;">

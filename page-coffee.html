@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="img/favicon/apple-icon-57x57.png" />
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="img/favicon/apple-icon-60x60.png" />
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="img/favicon/apple-icon-72x72.png" />
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="img/favicon/apple-icon-76x76.png" />
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="img/favicon/apple-icon-114x114.png" />
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="img/favicon/apple-icon-120x120.png" />
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="img/favicon/apple-icon-144x144.png" />
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="img/favicon/apple-icon-152x152.png" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="img/favicon/apple-icon-180x180.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="img/favicon/android-icon-192x192.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="img/favicon/favicon-32x32.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="96x96"
+			href="img/favicon/favicon-96x96.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="img/favicon/favicon-16x16.png" />
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+		<meta name="theme-color" content="#ffffff" />
+		<title>Coffee Single Page</title>
+	</head>
+	<body>
+		<div class="wrapper wrapper_no-bg">
+			<header id="header" class="header">
+				<div class="container">
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__link">
+								<a class="menu__logo" href="index.html">
+									<picture>
+										<source srcset="img/icons/logo.webp" type="image/webp" />
+										<img src="img/icons/logo.png" alt="" />
+									</picture>
+								</a>
+							</li>
+							<li class="menu__link">
+								<a class="menu__middle" href="catalog.html">Catalog</a>
+								<a class="menu__middle" href="blog.html">Blog</a>
+								<a class="menu__middle" href="contacts.html">Contacts</a>
+								<a class="menu__middle" href="personal.html">Personal Area</a>
+							</li>
+							<li class="menu__link">
+								<form action="#" class="menu__icon search">
+									<button type="button">
+										<svg><use xlink:href="img/sprite2.svg#h-1"></use></svg>
+									</button>
+									<input
+										type="text"
+										class="search__input"
+										placeholder="Product search" />
+								</form>
+								<a class="menu__icon quantity" href="cart.html">
+									<span>0</span>
+									<svg><use xlink:href="img/sprite2.svg#h-2"></use></svg>
+								</a>
+								<a class="menu__icon popup-link" href="#popup">
+									<svg><use xlink:href="img/sprite2.svg#h-3"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div id="popup" class="popup">
+					<div class="popup__body">
+						<div class="popup__content">
+							<div class="popup__flex">
+								<div class="popup__left popup-left">
+									<div class="popup-left__img">
+										<picture>
+											<source srcset="img/img1.webp" type="image/webp" />
+											<img src="img/img1.png" alt="" />
+										</picture>
+									</div>
+									<div class="popup-left__title">Welcome!</div>
+									<div class="popup-left__label">Already have an account?</div>
+									<a href="#popup2" class="popup-left__btn btn popup-link"
+										>Come in</a
+									>
+								</div>
+								<div class="popup__right popup-right">
+									<a href="" class="popup-right__logo">
+										<picture>
+											<source srcset="img/icons/logo.webp" type="image/webp" />
+											<img src="img/icons/logo.png" alt="" />
+										</picture>
+									</a>
+									<div class="popup-right__title">Registration</div>
+									<div class="popup-right__text">
+										Register on the site to be the first to receive discounts
+										and find out promotional offers!
+									</div>
+									<form action="#" class="popup__form">
+										<input
+											required
+											placeholder="Name and last name"
+											type="text"
+											class="popup__input" />
+										<input
+											required
+											placeholder="Email"
+											type="email"
+											class="popup__input" />
+										<input
+											required
+											placeholder="Telephone"
+											type="number"
+											class="popup__input" />
+										<input
+											required
+											placeholder="Create a password"
+											type="password"
+											class="popup__input" />
+										<input
+											type="button"
+											class="popup__btn btn"
+											value="Register" />
+									</form>
+								</div>
+								<a href="#header" class="popup__close">
+									<picture>
+										<source srcset="img/icons/cross.svg" type="image/webp" />
+										<img src="img/icons/cross.svg" alt="" />
+									</picture>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="popup2" class="popup popup2">
+					<div class="popup__body">
+						<div class="popup__content">
+							<div class="popup__flex">
+								<div class="popup__left popup-left">
+									<div class="popup-left__img">
+										<picture>
+											<source srcset="img/img1.webp" type="image/webp" />
+											<img src="img/img1.png" alt="" />
+										</picture>
+									</div>
+									<div class="popup-left__title popup2__title">
+										Registration
+									</div>
+									<div class="popup-left__label">Get discounts first!</div>
+									<a href="#popup" class="popup-left__btn btn popup-link"
+										>Register</a
+									>
+								</div>
+								<div class="popup__right popup-right popup2__right">
+									<a href="" class="popup-right__logo">
+										<picture>
+											<source srcset="img/icons/logo.webp" type="image/webp" />
+											<img src="img/icons/logo.png" alt="" />
+										</picture>
+									</a>
+									<div class="popup-right__title">
+										Login to your personal account
+									</div>
+									<form action="#" class="popup__form">
+										<input
+											required
+											placeholder="Email"
+											type="email"
+											class="popup__input" />
+										<input
+											required
+											placeholder="Enter password"
+											type="password"
+											class="popup__input" />
+										<input
+											type="button"
+											class="popup__btn btn"
+											value="Come in" />
+									</form>
+									<a href="#popup3" class="popup-right__forgot popup-link"
+										>Forgot your password?</a
+									>
+								</div>
+								<a href="#header" class="popup__close">
+									<picture>
+										<source srcset="img/icons/cross.svg" type="image/webp" />
+										<img src="img/icons/cross.svg" alt="" />
+									</picture>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="popup3" class="popup">
+					<div class="popup__body">
+						<div class="popup__content">
+							<div class="popup__flex">
+								<div class="popup__left popup-left">
+									<div class="popup-left__img">
+										<picture>
+											<source srcset="img/img1.webp" type="image/webp" />
+											<img src="img/img1.png" alt="" />
+										</picture>
+									</div>
+									<div class="popup-left__title popup2__title">
+										Registration
+									</div>
+									<div class="popup-left__label">Get discounts first!</div>
+									<a href="#popup" class="popup-left__btn btn popup-link"
+										>Register</a
+									>
+								</div>
+								<div class="popup__right popup-right popup2__right">
+									<a href="" class="popup-right__logo">
+										<picture>
+											<source srcset="img/icons/logo.webp" type="image/webp" />
+											<img src="img/icons/logo.png" alt="" />
+										</picture>
+									</a>
+									<div class="popup-right__title">Forgot your password?</div>
+									<div class="popup-right__text popup3__text">
+										Enter your email and we will send you a verification code by
+										mail
+									</div>
+									<form action="#" class="popup__form">
+										<input
+											required
+											placeholder="Email"
+											type="email"
+											class="popup__input" />
+										<input
+											data-href="popup4"
+											type="button"
+											class="popup__btn btn btn-link"
+											value="Get the code" />
+									</form>
+									<a href="#popup2" class="popup-right__forgot popup-link"
+										>Back to login page</a
+									>
+								</div>
+								<a href="#header" class="popup__close">
+									<picture>
+										<source srcset="img/icons/cross.svg" type="image/webp" />
+										<img src="img/icons/cross.svg" alt="" />
+									</picture>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="popup4" class="popup">
+					<div class="popup__body">
+						<div class="popup__content">
+							<div class="popup__flex">
+								<div class="popup__left popup-left">
+									<div class="popup-left__img">
+										<picture>
+											<source srcset="img/img1.webp" type="image/webp" />
+											<img src="img/img1.png" alt="" />
+										</picture>
+									</div>
+									<div class="popup-left__title popup2__title">
+										Registration
+									</div>
+									<div class="popup-left__label">Get discounts first!</div>
+									<a href="#popup" class="popup-left__btn btn popup-link"
+										>Register</a
+									>
+								</div>
+								<div class="popup__right popup-right popup2__right">
+									<a href="" class="popup-right__logo">
+										<picture>
+											<source srcset="img/icons/logo.webp" type="image/webp" />
+											<img src="img/icons/logo.png" alt="" />
+										</picture>
+									</a>
+									<div class="popup-right__title">Forgot your password?</div>
+									<div class="popup-right__text popup3__text">
+										We are sent you a verification code by email. Enter it below
+										and create a new password
+									</div>
+									<form action="#" class="popup__form">
+										<input
+											required
+											placeholder="Enter a code"
+											type="number"
+											class="popup__input" />
+										<input
+											required
+											placeholder="Enter a new password"
+											type="password"
+											class="popup__input" />
+										<input
+											type="button"
+											class="popup__btn btn"
+											value="Update password" />
+									</form>
+									<a href="#popup4" class="popup-right__forgot popup-link"
+										>Send code again</a
+									>
+								</div>
+								<a href="#header" class="popup__close">
+									<picture>
+										<source srcset="img/icons/cross.svg" type="image/webp" />
+										<img src="img/icons/cross.svg" alt="" />
+									</picture>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="catalog">
+				<section class="catalog1 catalog1_2">
+					<div class="catalog1__container container">
+						<nav>
+							<ul class="catalog1__page">
+								<li>
+									<a href="index.html" class="catalog1__link catalog1__link_3"
+										>Main</a
+									>
+								</li>
+								<li>
+									<a
+										href="catalog-coffee.html"
+										class="catalog1__link catalog1__link_3"
+										>Coffee catalog</a
+									>
+								</li>
+								<li>
+									<a
+										href="page-coffee.html"
+										class="catalog1__link catalog1__link_3"
+										>Coffee product card</a
+									>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</section>
+				<section class="page1">
+					<div class="page1__container container" id="single-coffee-page">
+						<article class="page1__product">
+							<div data-da=".page1__top,1270,1" class="page1__img">
+								<picture>
+									<source srcset="img/coffee.webp" type="image/webp" />
+									<img src="img/coffee.png" alt="" />
+								</picture>
+							</div>
+							<div class="page1__content">
+								<div class="page1__top">
+									<div class="page1__top-left">
+										<div class="page1__roasting">
+											<picture>
+												<source srcset="img/icons/p-1.webp" type="image/webp" />
+												<img src="img/icons/p-1.png" alt="" />
+											</picture>
+										</div>
+										<h2 class="page1__name">Colombia Supremo</h2>
+										<div class="page1__label">Washed, natural, blend</div>
+										<div class="page1__rating rating rating_set">
+											<div class="page1__body-rating rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input
+														type="radio"
+														class="rating__item"
+														value="1"
+														name="rating" />
+													<input
+														type="radio"
+														class="rating__item"
+														value="2"
+														name="rating" />
+													<input
+														type="radio"
+														class="rating__item"
+														value="3"
+														name="rating" />
+													<input
+														type="radio"
+														class="rating__item"
+														value="4"
+														name="rating" />
+													<input
+														type="radio"
+														class="rating__item"
+														value="5"
+														name="rating" />
+												</div>
+											</div>
+											<div class="rating__values">
+												<div class="rating__value">4.6</div>
+												<a href="" class="rating__total">(32 review)</a>
+											</div>
+										</div>
+									</div>
+									<div
+										data-da=".page1__top-left,1270,3"
+										class="page1__top-right">
+										<p>Popular</p>
+										<p>New crop</p>
+									</div>
+								</div>
+								<div class="page1__text">
+									New Refining Group is located in Kaliningrad and has its own
+									warehouse and representative office in Moscow. The plant
+									operates in the market of freshly roasted coffee and instant
+									products for over 15 years. The plant has German Probat brand
+									equipment for roasting coffee and Italian agglomerators for
+									the production of instant products.
+								</div>
+								<div class="page1__parameters">
+									<div class="page1__parameters-body">
+										<div class="product__parameter">Kislinka</div>
+										<div class="product__value">
+											<picture>
+												<source srcset="img/icons/p-2.webp" type="image/webp" />
+												<img src="img/icons/p-2.png" alt="" />
+											</picture>
+										</div>
+									</div>
+									<div class="page1__parameters-body">
+										<div class="product__parameter">Bitterness</div>
+										<div class="product__value">
+											<picture>
+												<source srcset="img/icons/p-2.webp" type="image/webp" />
+												<img src="img/icons/p-2.png" alt="" />
+											</picture>
+										</div>
+									</div>
+									<div class="page1__parameters-body">
+										<div class="product__parameter">Saturation</div>
+										<div class="product__value">
+											<picture>
+												<source srcset="img/icons/p-2.webp" type="image/webp" />
+												<img src="img/icons/p-2.png" alt="" />
+											</picture>
+										</div>
+									</div>
+								</div>
+								<div class="page1__weight">
+									<input
+										checked="checked"
+										type="radio"
+										name="weight"
+										id="250" />
+									<label for="250">250g.</label>
+									<input type="radio" name="weight" id="500" />
+									<label for="500">500g.</label>
+									<input type="radio" name="weight" id="1000" />
+									<label for="1000">1000g.</label>
+								</div>
+								<div class="page1__bottom">
+									<div class="page1__quantity">
+										<button type="button" class="page1__btn page1__btn_minus">
+											-
+										</button>
+										<span class="page1__summ">1</span>
+										<button type="button" class="page1__btn page1__btn_plus">
+											+
+										</button>
+									</div>
+									<button type="button" class="page1__buy btn">
+										Buy for 250 $
+									</button>
+								</div>
+							</div>
+						</article>
+					</div>
+				</section>
+				<section class="tabs">
+					<div class="tabs__container container">
+						<nav class="tabs__names">
+							<button class="tabs__btn active" type="button" data-tab="#tab-1">
+								<span>Description</span>
+							</button>
+							<button class="tabs__btn" type="button" data-tab="#tab-2">
+								<span>How to cook?</span>
+							</button>
+							<button class="tabs__btn" type="button" data-tab="#tab-3">
+								<span>Additionally</span>
+							</button>
+							<button class="tabs__btn" type="button" data-tab="#tab-4">
+								<span>Reviews</span>
+							</button>
+						</nav>
+						<div class="tabs__content">
+							<div class="tabs__block active tab1" id="tab-1">
+								<div class="tab1__top">
+									<div class="tab1__left">
+										<div class="tab1__label">Taste</div>
+										<div class="tab1__rows">
+											<div class="tab1__row">
+												<div class="tab1__icon">
+													<picture>
+														<source
+															srcset="img/icons/taste-1.webp"
+															type="image/webp" />
+														<img src="img/icons/taste-1.png" alt="" />
+													</picture>
+												</div>
+												<div class="tab1__taste">Chocolate</div>
+											</div>
+											<div class="tab1__row">
+												<div class="tab1__icon">
+													<picture>
+														<source
+															srcset="img/icons/taste-1.webp"
+															type="image/webp" />
+														<img src="img/icons/taste-1.png" alt="" />
+													</picture>
+												</div>
+												<div class="tab1__taste">Apple</div>
+											</div>
+											<div class="tab1__row">
+												<div class="tab1__icon">
+													<picture>
+														<source
+															srcset="img/icons/taste-1.webp"
+															type="image/webp" />
+														<img src="img/icons/taste-1.png" alt="" />
+													</picture>
+												</div>
+												<div class="tab1__taste">Cocoa</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab1__right">
+										<div class="tab1__label">Specifications</div>
+										<div class="tab1__row2">
+											<div class="tab1__sort">Arabica:</div>
+											<div class="tab1__text">
+												Cat Brasilio, Peru gr.2, Ethiopia Sidamogr.4 Premium
+												Amhara Ayehu
+											</div>
+										</div>
+										<div class="tab1__row2">
+											<div class="tab1__sort">Robusta:</div>
+											<div class="tab1__text">washed India, dry Vietnam</div>
+										</div>
+										<div class="tab1__row2">
+											<div class="tab1__sort">Processing method:</div>
+											<div class="tab1__text">washed, dry</div>
+										</div>
+										<div class="tab1__row2">
+											<div class="tab1__sort">Type of coffee:</div>
+											<div class="tab1__text">arabica blend/robusta</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab1__bottom">
+									<div class="tab1__descr">
+										<p>
+											Diverse and rich experience A new model of organizational
+											activity allows you to evaluate the importance of the
+											positions taken by the participants in relation to the
+											tasks set. The significance of these problems is so
+											obvious that the further development of various forms of
+											activity in largely determines the creation of a
+											development model.
+										</p>
+										<p>
+											The task of the organization, in particular the framework
+											and place of training of personnel, contributes to the
+											training and implementation of mass participation systems.
+											Thus strengthening and developing the structure
+											contributes to the preparation and implementation of
+											directions for progressive development.
+										</p>
+										<p>
+											Comrades! implementation of planned targets provides a
+											wide range of (specialists) participation in the formation
+											of appropriate activation conditions. On the other hand,
+											the implementation planned targets require us to analyze
+											significant financial and administrative conditions.
+										</p>
+									</div>
+									<div class="tab1__img">
+										<picture>
+											<source srcset="img/page-img.webp" type="image/webp" />
+											<img src="img/page-img.jpg" alt="" />
+										</picture>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__block tab2" id="tab-2">
+								<div class="tab2__name">How to brew coffee:</div>
+								<div class="tab2__text">
+									<p>
+										Diverse and rich experience A new model of organizational
+										activity allows you to evaluate the importance of the
+										positions taken by the participants in relation to the tasks
+										set. The significance of these problems is so obvious that
+										the further development of various forms of activity in
+										largely determines the creation of a development model.
+									</p>
+									<p>
+										The task of the organization, in particular the framework
+										and place of training of personnel, contributes to the
+										training and implementation of mass participation systems.
+										Thus strengthening and developing the structure contributes
+										to the preparation and implementation of directions for
+										progressive development.
+									</p>
+									<p>
+										Comrades! implementation of planned targets provides a wide
+										range of (specialists) participation in the formation of
+										appropriate activation conditions. On the other hand, the
+										implementation planned targets require us to analyze
+										significant financial and administrative conditions.
+									</p>
+								</div>
+								<div class="tab2__img">
+									<picture>
+										<source srcset="img/cook.webp" type="image/webp" />
+										<img src="img/cook.jpg" alt="" />
+									</picture>
+								</div>
+							</div>
+							<div class="tabs__block tab3" id="tab-3">
+								<div class="tab2__name tab3__name">Additionally</div>
+								<div class="tab2__text tab3__text">
+									<p>
+										Diverse and rich experience A new model of organizational
+										activity allows you to evaluate the importance of the
+										positions taken by the participants in relation to the tasks
+										set. The significance of these problems is so obvious that
+										the further development of various forms of activity in
+										largely determines the creation of a development model.
+									</p>
+									<p>
+										The task of the organization, in particular the framework
+										and place of training of personnel, contributes to the
+										training and implementation of mass participation systems.
+										Thus strengthening and developing the structure contributes
+										to the preparation and implementation of directions for
+										progressive development.
+									</p>
+									<p>
+										Comrades! implementation of planned targets provides a wide
+										range of (specialists) participation in the formation of
+										appropriate activation conditions. On the other hand, the
+										implementation planned targets require us to analyze
+										significant financial and administrative conditions.
+									</p>
+								</div>
+								<div class="tab2__img tab3__img">
+									<picture>
+										<source srcset="img/extra1.webp" type="image/webp" />
+										<img src="img/extra1.jpg" alt="" />
+									</picture>
+								</div>
+								<div class="tab2__name tab3__name">Topic name</div>
+								<div class="tab2__text tab3__text">
+									<p>
+										Diverse and rich experience A new model of organizational
+										activity allows you to evaluate the importance of the
+										positions taken by the participants in relation to the tasks
+										set. The significance of these problems is so obvious that
+										the further development of various forms of activity in
+										largely determines the creation of a development model.
+									</p>
+									<p>
+										The task of the organization, in particular the framework
+										and place of training of personnel, contributes to the
+										training and implementation of mass participation systems.
+										Thus strengthening and developing the structure contributes
+										to the preparation and implementation of directions for
+										progressive development.
+									</p>
+									<p>
+										Comrades! implementation of planned targets provides a wide
+										range of (specialists) participation in the formation of
+										appropriate activation conditions. On the other hand, the
+										implementation planned targets require us to analyze
+										significant financial and administrative conditions.
+									</p>
+								</div>
+								<div class="tab2__img tab3__img">
+									<picture>
+										<source srcset="img/extra2.webp" type="image/webp" />
+										<img src="img/extra2.jpg" alt="" />
+									</picture>
+								</div>
+								<div class="tab2__name tab3__name">Topic name</div>
+								<div class="tab2__text tab3__text">
+									<p>
+										Diverse and rich experience A new model of organizational
+										activity allows you to evaluate the importance of the
+										positions taken by the participants in relation to the tasks
+										set. The significance of these problems is so obvious that
+										the further development of various forms of activity in
+										largely determines the creation of a development model.
+									</p>
+									<p>
+										The task of the organization, in particular the framework
+										and place of training of personnel, contributes to the
+										training and implementation of mass participation systems.
+										Thus strengthening and developing the structure contributes
+										to the preparation and implementation of directions for
+										progressive development.
+									</p>
+									<p>
+										Comrades! implementation of planned targets provides a wide
+										range of (specialists) participation in the formation of
+										appropriate activation conditions. On the other hand, the
+										implementation planned targets require us to analyze
+										significant financial and administrative conditions.
+									</p>
+									<div class="tab2__img tab3__img">
+										<picture>
+											<source srcset="img/extra1.webp" type="image/webp" />
+											<img src="img/extra1.jpg" alt="" />
+										</picture>
+									</div>
+								</div>
+								<div class="tabs__block tab4" id="tab-4">
+									<div class="tab2__name">Reviews</div>
+									<div class="tab4__review">
+										<div class="tab4__top">
+											<div class="tab4__left">
+												<div class="tab4__mark">“”</div>
+												<div class="tab4__label">Great taste!</div>
+												<div class="tab4__rating">
+													<div class="rating__body">
+														<div class="rating__active"></div>
+														<div class="rating__items">
+															<input
+																type="radio"
+																class="rating__item"
+																value="1"
+																name="rating" />
+															<input
+																type="radio"
+																class="rating__item"
+																value="2"
+																name="rating" />
+															<input
+																type="radio"
+																class="rating__item"
+																value="3"
+																name="rating" />
+															<input
+																type="radio"
+																class="rating__item"
+																value="4"
+																name="rating" />
+															<input
+																type="radio"
+																class="rating__item"
+																value="5"
+																name="rating" />
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="tab4__data">21.12.2020</div>
+										</div>
+										<div class="tab4__text">
+											Comrades! the implementation of the planned targets
+											provides a wide range of (specialists) participation in
+											the formation of appropriate activation conditions.
+										</div>
+										<div class="tab4__bottom">
+											<div class="tab4__img">
+												<picture>
+													<source
+														srcset="img/icons/review.webp"
+														type="image/webp" />
+													<img src="img/icons/review.png" alt="" />
+												</picture>
+											</div>
+											<div class="tab4__info">
+												<div class="tab4__name">Irina</div>
+												<div class="tab4__town">Moscow city</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab4__review">
+										<div class="tab4__top">
+											<div class="tab4__left">
+												<div class="tab4__mark">“”</div>
+												<div class="tab4__label">Great taste!</div>
+												<div class="tab4__rating">
+													<div class="rating__body">
+														<div class="rating__active"></div>
+														<div class="rating__items">
+															<input
+																type="radio"
+																class="rating__item"
+																value="1"
+																name="rating" />
+															<input
+																type="radio"
+																class="rating__item"
+																value="2"
+																name="rating" />
+															<input
+																type="radio"
+																class="rating__item"
+																value="3"
+																name="rating" />
+															<input
+																type="radio"
+																class="rating__item"
+																value="4"
+																name="rating" />
+															<input
+																type="radio"
+																class="rating__item"
+																value="5"
+																name="rating" />
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="tab4__data">21.12.2020</div>
+										</div>
+										<div class="tab4__text">
+											Comrades! the implementation of the planned targets
+											provides a wide range of (specialists) participation in
+											the formation of appropriate activation conditions.
+										</div>
+										<div class="tab4__bottom">
+											<div class="tab4__img">
+												<picture>
+													<source
+														srcset="img/icons/review.webp"
+														type="image/webp" />
+													<img src="img/icons/review.png" alt="" />
+												</picture>
+											</div>
+											<div class="tab4__info">
+												<div class="tab4__name">Irina</div>
+												<div class="tab4__town">Moscow city</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab4__review">
+										<div class="tab4__top">
+											<div class="tab4__left">
+												<div class="tab4__mark">“”</div>
+												<div class="tab4__label">Great taste!</div>
+												<div class="tab4__rating">
+													<div class="rating__body">
+														<div class="rating__active"></div>
+														<div class="rating__items">
+															<input
+																type="radio"
+																class="rating__item"
+																value="1"
+																name="rating" />
+															<input
+																type="radio"
+																class="rating__item"
+																value="2"
+																name="rating" />
+															<input
+																type="radio"
+																class="rating__item"
+																value="3"
+																name="rating" />
+															<input
+																type="radio"
+																class="rating__item"
+																value="4"
+																name="rating" />
+															<input
+																type="radio"
+																class="rating__item"
+																value="5"
+																name="rating" />
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="tab4__data">21.12.2020</div>
+										</div>
+										<div class="tab4__text">
+											Comrades! the implementation of the planned targets
+											provides a wide range of (specialists) participation in
+											the formation of appropriate activation conditions.
+										</div>
+										<div class="tab4__bottom">
+											<div class="tab4__img">
+												<picture>
+													<source
+														srcset="img/icons/review.webp"
+														type="image/webp" />
+													<img src="img/icons/review.png" alt="" />
+												</picture>
+											</div>
+											<div class="tab4__info">
+												<div class="tab4__name">Irina</div>
+												<div class="tab4__town">Moscow city</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="catalog__bg">
+					<picture>
+						<source srcset="img/page-bg.webp" type="image/webp" />
+						<img src="img/page-bg.png" alt="" />
+					</picture>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__container container">
+					<div class="footer__flex">
+						<div class="footer__content">
+							<h5 class="footer__title title">
+								Subscribe to News and Newsletter
+							</h5>
+							<div class="footer__text">
+								Subscribe to our newsletter now and stay up to date with new
+								deliveries, discounts and exclusive offers.
+							</div>
+							<form action="#" class="footer__form">
+								<input
+									class="footer__input"
+									type="email"
+									name="email"
+									placeholder="Your email" />
+								<input
+									class="footer__btn btn"
+									type="button"
+									value="Subscribe" />
+							</form>
+							<div class="footer__label">
+								By clicking on the "Subscribe" button, you accept the rules
+								<a href="">user agreement</a>
+							</div>
+						</div>
+						<div class="footer__img">
+							<picture>
+								<source srcset="img/img1.webp" type="image/webp" />
+								<img src="img/img1.png" alt="" />
+							</picture>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<nav class="menu">
+							<ul class="menu__list">
+								<li class="menu__link">
+									<a class="menu__logo" href="index.html">
+										<picture>
+											<source srcset="img/icons/logo.webp" type="image/webp" />
+											<img src="img/icons/logo.png" alt="" />
+										</picture>
+									</a>
+								</li>
+								<li class="menu__link">
+									<a class="menu__middle" href="catalog.html">Catalog</a>
+									<a class="menu__middle" href="blog.html">Blog</a>
+									<a class="menu__middle" href="contacts.html">Contacts</a>
+									<a class="menu__middle" href="personal.html">Personal Area</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+		<script type="module" src="js/index.js"></script>
+	</body>
+</html>
