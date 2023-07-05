@@ -1,4 +1,4 @@
-import { localStorageUtil } from '../utils/local-storage.js';
+import { localStorageUtil } from './local-storage.js';
 
 class Products {
 	constructor() {

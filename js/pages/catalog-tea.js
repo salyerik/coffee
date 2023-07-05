@@ -1,6 +1,6 @@
 import { TEA_PRODUCTS } from '../constants/tea.js';
 import { ROOT_TEA_LIST } from '../constants/root.js';
-import { products } from '../add-products/addProducts.js';
+import { products } from '../utils/add-products.js';
 import rating from '../modules/rating.js';
 
 function coupleFn() {

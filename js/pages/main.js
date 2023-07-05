@@ -1,7 +1,7 @@
 import animation from '../modules/animation.js';
 import rating from '../modules/rating.js';
 import parallax from '../modules/parallax.js';
-import { coffeeProductsPage } from '../add-products/addCoffeeProducts.js';
+import { coffeeProductsPage } from '../utils/add-coffee-products.js';
 
 export default function () {
 	new Swiper('.block1', {

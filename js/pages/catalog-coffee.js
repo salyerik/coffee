@@ -1,5 +1,5 @@
 import rating from '../modules/rating.js';
-import { coffeeProductsPage } from '../add-products/addCoffeeProducts.js';
+import { coffeeProductsPage } from '../utils/add-coffee-products.js';
 
 function coupleFn() {
 	const btns = document.querySelectorAll('.product__btn');

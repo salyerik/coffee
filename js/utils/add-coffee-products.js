@@ -1,4 +1,4 @@
-import { localStorageUtil } from '../utils/local-storage.js';
+import { localStorageUtil } from './local-storage.js';
 import { COFFEE_PRODUCTS } from '../constants/coffee.js';
 import { ROOT_COFFEE_LIST, ROOT_MAIN_COFFEE_LIST } from '../constants/root.js';
 
