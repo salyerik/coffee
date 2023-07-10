@@ -18,20 +18,20 @@
 	* Tabs
 
 ### Pages:
-[Main page](https://steterik.github.io/coffee/)<br>
-[Catalog](https://steterik.github.io/coffee/catalog.html)<br>
-[Blog](https://steterik.github.io/coffee/blog.html)<br>
-[Contacts](https://steterik.github.io/coffee/contacts.html)<br>
-[Personal page](https://steterik.github.io/coffee/personal.html)<br>
-[Cart](https://steterik.github.io/coffee/cart.html)<br>
-[Coffee catalog](https://steterik.github.io/coffee/catalog-coffee.html)<br>
-[Tea catalog](https://steterik.github.io/coffee/catalog-tea.html)<br>
-[Vending catalog](https://steterik.github.io/coffee/catalog-vending.html)<br>
-[Food catalog](https://steterik.github.io/coffee/catalog-food.html)<br>
-[Coffee page](https://steterik.github.io/coffee/page-coffee.html)<br>
-[Tea page](https://steterik.github.io/coffee/page-tea.html)<br>
-[Vending page](https://steterik.github.io/coffee/page-vending.html)<br>
-[Food page](https://steterik.github.io/coffee/page-food.html)<br>
+[Main page](https://salyerik.github.io/coffee/)<br>
+[Catalog](https://salyerik.github.io/coffee/catalog.html)<br>
+[Blog](https://salyerik.github.io/coffee/blog.html)<br>
+[Contacts](https://salyerik.github.io/coffee/contacts.html)<br>
+[Personal page](https://salyerik.github.io/coffee/personal.html)<br>
+[Cart](https://salyerik.github.io/coffee/cart.html)<br>
+[Coffee catalog](https://salyerik.github.io/coffee/catalog-coffee.html)<br>
+[Tea catalog](https://salyerik.github.io/coffee/catalog-tea.html)<br>
+[Vending catalog](https://salyerik.github.io/coffee/catalog-vending.html)<br>
+[Food catalog](https://salyerik.github.io/coffee/catalog-food.html)<br>
+[Coffee page](https://salyerik.github.io/coffee/page-coffee.html)<br>
+[Tea page](https://salyerik.github.io/coffee/page-tea.html)<br>
+[Vending page](https://salyerik.github.io/coffee/page-vending.html)<br>
+[Food page](https://salyerik.github.io/coffee/page-food.html)<br>
 
 ### Mobile Optimization
 <img src="img/page-speed.jpg" alt="img" style="height: 400px;">
